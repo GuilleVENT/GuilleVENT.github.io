@@ -1,212 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Crow's Tale presents</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="./main.css" rel="stylesheet"></head>
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-</head>
-<style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crow's Tale presents</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <!-- 
+      Navbar background color -> bg-dark
+      This is bootstrap color. Check this link
+      https://getbootstrap.com/docs/5.0/utilities/background/#background-color
+     -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient text-white fixed-top"> 
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse flex-grow-1 justify-content-center align-items-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0 mr-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Kora</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pictures</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#merch">Merch</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#concerts">Shows</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://open.spotify.com/embed/artist/3ZxaYY2eYNWxg8v1s2k6JD"
+                target="_blank"
+                >Music</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.instagram.com/kora.st/"
+                target="_blank"
+                >Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-			.navbar {
-			color: #6b1117;
-			background-color: #111;
-			padding-top: 0px;
-			padding-bottom: 15px;
-			}
-			.body
-			{
-			  background-color: #111;
-			  
-			  margin-left: 20%;
-			  margin-right: 20%;
-      		  font-family: sans-serif;
-			}
-		    .div-v {
-		        background-color: #111;
-		        margin-top: 85px;
-		    }
-		    
-		    .div-2 {
-		    	background-color: #F4F6F7;
-		    }
-		    
-		    .div-3 {
-		    	background-image: url('images/pic04');
-		    }
-		    .div-pers {
-		    	color: white;
-		    	background-color: #292525;
-		    	padding-left: 15%;
-		    	padding-right: 15%;
+    <!-- HEADER -->
+    <header id="header" class="py-2">
+      <video autoplay muted id="video">
+        <source src="assets/Kora — NEQP.mp4" type="video/mp4">
+      </video>
+      <div id="header-content" class="text-light text-center">
+        <h2 class="fs-1">Kora Presents</h2>
+        
+        <a href="#about" class="scroll-down"
+          ><i class="fas fa-arrow-down"></i
+        ></a>
+      </div>
+    </header>
 
-		    }
+    <section id="about" class="w-100">
+      <div class="row m-0">
+        <div
+          class="col-md-8 py-4 d-flex align-items-center justify-content-center"
+        >
+          <div class="container">
+            <h3>About Kora</h3>
+            <p>
+              Kora es una de las joyas más impredecibles e incatalogables del nuevo sonido alternativo español. La artista catalana de 19 años reinventa su sonido en cada canción incorporando elementos del jazz, la bossa nova, el blues, la electrónica o el pop más brillante. Ella controla todo el proceso creativo: compone, arregla, toca, canta, graba, mezcla, produce y masteriza.<br>
+              <br>
+              A principios de 2021, confirmó su carácter de artista revelación con la primera entrega de ""Renacer", en la que encontramos canciones inapelables como "Marte" y "La Luna". Mientras tanto, su himno "Paciencia" ha seguido calando entre audiencias cada vez más diversas y numerosas, incluidas las de Latinoamérica, y ya acumula más de tres millones de reproducciones en Spotify. "NEQP" es el nuevo avance de "Renacer", ese primer álbum que Kora ha dividido en dos entregas y cuya segunda parte se publicará a finales de este verano. Un himno electrónico de formas uptempo que nos traslada a un contexto oscuro con sutileza.
+            </p>
+            <!-- <iframe
+              class="playlist"
+              src="https://open.spotify.com/embed/artist/3ZxaYY2eYNWxg8v1s2k6JD"
+              frameborder="0"
+              allowtransparency="true"
+              allow="encrypted-media"
+            ></iframe>-->
+          </div>
+        </div>
+        <div class="col-md-4 p-0">
+          <img
+            class="img-fluid"
+            src="assets/kora.jpeg"
+            alt="about-img"
+          />
+        </div>
+      </div>
+    </section>
 
+    <section id="merch" class="py-4 bg-dark text-light">
+      <div class="container text-center">
+        <h2>Merch</h2>
+        <small>Se vienen costias...</small>
+        <div class="row my-3">
+          <div class="col-md-4">
+            <div class="merch-card">
+              <img
+                class="img-fluid rounded"
+                src="assets/home_eco_blog1-350x350.jpg"
+                alt="card-img"
+              />
+              <h4 class="my-3">Black</h4>
+              <button>Buy</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="merch-card">
+              <img
+                class="img-fluid rounded"
+                src="assets/home_eco_blog1-350x350.jpg"
+                alt="card-img"
+              />
+              <h4 class="my-3">Grey</h4>
+              <button>Buy</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="merch-card">
+              <img
+                class="img-fluid rounded"
+                src="assets/home_eco_blog1-350x350.jpg"
+                alt="card-img"
+              />
+              <h4 class="my-3">White</h4>
+              <button>Buy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-</style>
-<body>
-	<div id="site-border-top"></div>
-	<div id="site-border-right"></div>
-	<div id="site-border-left"></div>
+    <section id="concerts" class="py-4">
+      <div class="container text-center">
+        <h2>Coming Concerts</h2>
+        <div class="row my-3">
+          <div class="col-md-4">
+            <div class="merch-card">
+              <img
+                class="img-fluid rounded"
+                src="assets/home_eco_blog1-350x350.jpg"
+                alt="card-img"
+              />
+              <h4 class="my-3">Madrid</h4>
+              <p>Fri. 27 November 2015</p>
+              <button>Buy</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="merch-card">
+              <img
+                class="img-fluid rounded"
+                src="assets/home_eco_blog1-350x350.jpg"
+                alt="card-img"
+              />
+              <h4 class="my-3">Barcelona</h4>
+              <p>Sat. 28 November 2015</p>
+              <button>Buy</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="merch-card">
+              <img
+                class="img-fluid rounded"
+                src="assets/home_eco_blog1-350x350.jpg"
+                alt="card-img"
+              />
+              <h4 class="my-3">San Francisco</h4>
+              <p>Sun. 29 November 2015</p>
+              <button>Buy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <img src="assets/logo.png" alt="logo" />
+          </div>
+          <div
+            class="col-md-4 d-flex justify-content-center align-items-center"
+          >
+            <span class="my-3">© 2021 Copyright Kora <br> <span style="font-size:65%"> by Crow's Tale designs </span></span>
+          </div>
+          <div class="col-md-4">
+            <ul class="social-media">
+              <li>
+                <a href="https://www.instagram.com/kora.st/" target="_blank"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="https://open.spotify.com/artist/3ZxaYY2eYNWxg8v1s2k6JD" target="_blank"><i class="fab fa-spotify"></i></a>
+              </li>
+              <li>
+                <a href="https://music.apple.com/us/artist/kora/1493175597" target="_blank"><i class="fab fa-apple"></i></a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UCQp5xce5M6J2szTWK7ISbcw"target="_blank"><i class="fab fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-	 <!-- Add your content of header -->
-	<header>
-	  	<nav class="navbar navbar-fixed-top navbar-default">
-	    <div class="container">
-	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-	          <span class="sr-only">Toggle navigation</span>
-	          <span class="icon-bar"></span>
-	          <span class="icon-bar"></span>
-	          <span class="icon-bar"></span>
-	        </button>
-
-	      <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
-	        <ul class="nav navbar-nav ">
-	          <li><a href="./sample-page.html" title="">About Kora</a></li>
-	          <li><a href="./sample-page.html" title="">About Rodrigo</a></li>
-	          <li><a href="./pictures.html" title="">Pictures</a></li>
-	          <li><a href="./about.html" title="">Shows</a></li>
-	          <li><a href="./store.html" title="">Merch</a></li>
-	          <li><a href="./about.html" title="">Team</a></li>
-	          <li><a href="./spoti.html" title="">Music</a></li>
-	          <li><a href="./insta.html" title="">Instagram</a></li>
-	        </ul>
-	      </div> 
-    	</div>
-  		</nav>	
-  	<div class="div-v" align="center">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/A1jYxPtrwRU" frameborder="1px"></iframe>
-	</div>
-
-	<div class="div-pers">
-        <img src="images/kora2.png" align="right" width="200px" height="200px" class="img-circle">
-		<h2 class="w3-text-light-grey"><small>About</small> Kora:</h2>
-	    <p>
-	    Kora is a Catalan girl who has been gaining some recognition in the national scene in the last months. <br>
-	  	The release of her last EP is only the beging... On her computer, Kora produces songs with groovy baselines,<br>
-	  	vibing saxos and she complements it all with a unique voice (+personality). She has sung in several <br>
-	  	languages in the past (Catalan, Spanish, Italian) but Drive, is the first time she sings in English. </p>
-	    <iframe src="https://open.spotify.com/embed/artist/3ZxaYY2eYNWxg8v1s2k6JD" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
-	</div>
-	<div class="div-pers">
-	<h2><small>About</small> Rodrigo:</h2>
-	<img src="images/roro2.png " width="200px" height="200px" class="pull-right img-circle person">
-	<p>Rodrigo (22) is a Producer/Artist based in Miami, Florida who is currently working on an independent project that spans various genres. Rodrigo Iglesias comes from a family of musicians (Julio Iglesias and Enrique Iglesias), and this is Rodrigo's independent debut in the music industry. He initially wrote "Drive" inspired by the sounds of dream pop and early 80's new wave among other genres. In January, Rodrigo reached out to Kora to ask if she was interested in doing a collaboration. The song was subsequently recorded this spring between Málaga (Spain) and Miami.</p>
-
-	</div>
-	<br><br><br>
-<br><br><br>
-		<div class="container text-center">
-		  <br>
-		  <h3><b>The Team</b></h3>
-		  <br>
-		  <br>
-		  <div class="row">
-		    <div class="col-sm-4">
-		    	<p><big><strong>Javi</strong></big></p><br>
-				<img src="images/javi.png" width="200px" height="200px" class="img-circle person">
-				<p> </p>
-				<p class="title">High Priest</p>
-      			<p class="text" style="color:#808080">
-				Demiurge & Creator 
-				</p>
-				<p class="text" style="color:#808080">
-				The blood pumping - the creative ideas of the brand, the hand making conceptions into realities.
-				<p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-
-				</p>
-		    </div>
-		    <div class="col-sm-4">
-		    	<p><big><strong>Ernesto</strong></big></p><br>
-				<img src="images/ernesto.png" width="200px" height="200px" class="img-circle person">
-				<p> </p>
-				<p class="title">Whisperer of Thruth</p>
-      			<p class="text" style="color:#808080">
-      			Engineering, Design, 3D Production
-      			</p>
-      			<p class="text" style="color:#808080">
-        		People get ideas and I tell them how to realize them. First step is simple: stop telling me crap and get to work
-        		<p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-
-      			</p>
-		    </div>
-		    <div class="col-sm-4">
-		    	<p><big><strong>Guille</strong></big></p><br>
-				<img src="images/guille.png" width="200px" height="200px" class="img-circle person">
-				<p> </p>
-				<p class="title">God Emperor</p>
-      			<p class="text" style="color:#808080">
-      			Admin, Developer, & Producer
-        		<p class="text" style="color:#808080">
-        		<em>"The difference between a good administrator and a bad one is about five heartbeats"</em> --- Leto II
-        		<p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-				</p>
-      			</p>
-		    </div>
-		  </div>
-		</div>
-
-		<br><br><br><br>
-		<div class="container text-center">
-		  <h1>Crow's Tale</h1>
-		  <p><em>
-		  On a mission to create a sick brand that can do anything, from the clothes you wear to the music you listen to.
-		  </em></p>
-		  <h2>Merch</h2>
-		  <p style="color:#94989A"> Se vienen cositas... 
-		  <div class="row">
-		    <div class="col-sm-4">
-		    	<p><strong>Black</strong></p>
-				<img src="images/black1.png" width="350px" height="350px" class="img-circle person" alt="Random Name">
-				<button class="btn">BUY</button>
-		    </div>
-		    <div class="col-sm-4">
-		    	<p><strong>Grey</strong></p>
-				<img src="images/grey1.png" width="350px" height="350px" class="img-circle person" alt="Random Name">
-				<button class="btn">BUY</button>
-		    </div>
-		    <div class="col-sm-4">
-		    	<p><strong>White</strong></p>
-				<img src="images/white1.png" width="350px" height="350px" class="img-circle person" alt="Random Name">
-				<button class="btn">BUY</button>
-		    </div>
-		  </div>
-		</div>
-
-	<br><br><br><br>
-
-	<div class="row text-center">
-	<div class="col-sm-4">
-    <div class="thumbnail">
-      <img src="images/madrid.png" alt="Madrid">
-      <p><strong>Madrid</strong></p>
-      <p>Fri. 27 November 2015</p>
-      <button class="btn">BUY</button>
-    </div>
-	</div>
-	<div class="col-sm-4">
-    <div class="thumbnail">
-      <img src="images/barcelona.png" alt="Barcelona">
-      <p><strong>Barcelona</strong></p>
-      <p>Sat. 28 November 2015</p>
-      <button class="btn">BUY</button>
-    </div>
-	</div>
-	<div class="col-sm-4">
-    <div class="thumbnail">
-      <img src="images/sanfran.png" alt="San Francisco">
-      <p><strong>San Francisco</strong></p>
-      <p>Sun. 29 November 2015</p>
-      <button class="btn">BUY</button>
-    </div>
-	</div>
-	</div>
-
-
-	</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
