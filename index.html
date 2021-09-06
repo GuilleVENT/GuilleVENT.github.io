@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Crow's Tale presents</title>
+    <link rel="icon" href="assets/crows-tale-logo.ico">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -28,7 +29,7 @@
       This is bootstrap color. Check this link
       https://getbootstrap.com/docs/5.0/utilities/background/#background-color
      -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient text-white fixed-top"> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-dark text-white fixed-top"> 
       <div class="container-fluid">
         <button
           class="navbar-toggler"
@@ -50,21 +51,16 @@
               <a class="nav-link" href="#about">About Kora</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pictures</a>
+              <a class="nav-link" href="">Gallery</a>
             </li>
-            <li class="nav-item">
+            <!--<li class="nav-item">
               <a class="nav-link" href="#merch">Merch</a>
-            </li>
+            </li>-->
             <li class="nav-item">
               <a class="nav-link" href="#concerts">Shows</a>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link"
-                href="https://open.spotify.com/embed/artist/3ZxaYY2eYNWxg8v1s2k6JD"
-                target="_blank"
-                >Music</a
-              >
+              <a class="nav-link" href="#music">Music</a>
             </li>
             <li class="nav-item">
               <a
@@ -81,23 +77,21 @@
 
     <!-- HEADER -->
     <header id="header" class="py-2">
-      <video autoplay muted id="video">
+      <video autoplay muted loop controls id="video">
         <source src="assets/Kora — NEQP.mp4" type="video/mp4">
       </video>
-      <div id="header-content" class="text-light text-center">
-        <h2 class="fs-1">Kora Presents</h2>
-        
+      <!--<div id="header-content" class="text-light text-center">
+        <h2 class="fs-1">Kora</h2>
+        <h5 class="fs-3">NEQP</h5>
         <a href="#about" class="scroll-down"
           ><i class="fas fa-arrow-down"></i
         ></a>
-      </div>
+      </div> -->
     </header>
 
     <section id="about" class="w-100">
       <div class="row m-0">
-        <div
-          class="col-md-8 py-4 d-flex align-items-center justify-content-center"
-        >
+        <div class="col-md-8 py-4 d-flex align-items-center justify-content-center">
           <div class="container">
             <h3>About Kora</h3>
             <p>
@@ -124,7 +118,7 @@
       </div>
       </section>
     
-    <section id="Streamin Services" class="py-4 text-light" style="background: black;">
+    <section id="music" class="py-4 text-light" style="background: black;">
       <div class="container text-center">
           <h2> Streaming Services </h2>
           <ul class="social-media">
@@ -150,6 +144,7 @@
           </ul>
       </div>
     </section>
+    <!---
     <section id = "merch" class="py-4" style="background: linear-gradient(180deg, rgba(0,0,0,1) 10%, rgba(121,121,121,0.5032387955182073) 36%, rgba(255,255,255,1) 100%);">
       <div class="container text-center">
         <h2 style="color:white;">Merch</h2>
@@ -191,6 +186,7 @@
         </div>
       </div>
     </section>
+	-->
     <section id="concerts" class="py-4">
       <div class="container text-center">
         <h2>Coming Concerts</h2>
@@ -203,8 +199,8 @@
                 alt="card-img"
               />
               <h4 class="my-3">Madrid</h4>
-              <p>Fri. 27 November 2021</p>
-              <button>Buy</button>
+              <p>TBA</p>
+              <button>Reserve</button>
             </div>
           </div>
           <div class="col-md-4">
@@ -215,20 +211,20 @@
                 alt="card-img"
               />
               <h4 class="my-3">Barcelona</h4>
-              <p>Sat. 4 Diciembre 2021</p>
-              <button>Buy</button>
+              <p>TBA</p>
+              <button>Reserve</button>
             </div>
           </div>
           <div class="col-md-4">
             <div class="merch-card">
               <img
                 class="img-fluid rounded"
-                src="assets/malaga.png"
+                src="assets/barcelona.png"
                 alt="card-img"
               />
-              <h4 class="my-3">Malaga</h4>
-              <p>Sun. 15 Diciembre 2021</p>
-              <button>Buy</button>
+              <h4 class="my-3">Barcelona 2</h4>
+              <p>TBA</p>
+              <button>Reserve</button>
             </div>
           </div>
         </div>
@@ -244,26 +240,26 @@
           <div
             class="col-md-4 d-flex justify-content-center align-items-center"
           >
-            <span class="my-3">© 2021 Copyright Kora <br> <span style="font-size:65%"> by Crow's Tale designs </span></span>
+            <span class="my-3">© 2021 Copyright Kora <br> <span style="font-size:65%"><a href="crow.html"> by Crow's Tale designst</a></span></span>
           </div>
           <div class="col-md-4">
             <ul class="social-media">
               <li>
-                <a href="https://www.instagram.com/kora.st/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/kora.st/" target="_blank"><i style="font-size: 1.5em;" class="fab fa-instagram"></i></a>
               </li>
               <li>
-                <a href="https://open.spotify.com/artist/3ZxaYY2eYNWxg8v1s2k6JD" target="_blank"><i class="fab fa-spotify"></i></a>
+                <a href="https://open.spotify.com/artist/3ZxaYY2eYNWxg8v1s2k6JD" target="_blank"><i style="font-size: 1.5em;" class="fab fa-spotify"></i></a>
               </li>
               <li>
-                <a href="https://music.apple.com/us/artist/kora/1493175597" target="_blank"><i class="fab fa-apple"></i></a>
+                <a href="https://music.apple.com/us/artist/kora/1493175597" target="_blank"><i style="font-size: 1.5em;" class="fab fa-apple"></i></a>
               </li>
               <li>
-                <a href="https://www.youtube.com/channel/UCQp5xce5M6J2szTWK7ISbcw"target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.youtube.com/channel/UCQp5xce5M6J2szTWK7ISbcw"target="_blank"><i style="font-size: 1.5em;" class="fab fa-youtube"></i></a>
               </li>
               <li>
-                <a href="https://deezer.page.link/EfmC6MrtLGSgE3EB7" target="_blank"><i class="fab fa-deezer"></i></a>
+                <a href="https://deezer.page.link/EfmC6MrtLGSgE3EB7" target="_blank"><i style="font-size: 1.5em;" class="fab fa-deezer"></i></a>
               <li>
-                <a href="http://tidal.com/browse/artist/23071471" target="_black"><i class="iconify" data-icon="simple-icons:tidal" style="color: white;"></i></a>
+                <a href="http://tidal.com/browse/artist/23071471" target="_black"><i class="iconify" data-icon="simple-icons:tidal" style="color: white;font-size: 1.5em;"></i></a>
             </ul>
           </div>
         </div>
