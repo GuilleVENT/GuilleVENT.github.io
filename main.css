@@ -121,8 +121,25 @@
 
 .vidBtn {
   width: 240px;
+  color: #740010;
+  border-color: #740010;
 }
 
+.vidBtn.btn.btn-outline-secondary.btn-lga:active {
+  background-color: #740010;
+}
+.vidBtn:hover {
+  background-color: #740010;
+}
+
+.tourBtn {
+  width: 150px;
+  color: white;
+  background-color: #740010;
+}
+.tourBtn:hover {
+  background-color: #740010;
+}
 
 /* window.open(
   'https://google.com',
