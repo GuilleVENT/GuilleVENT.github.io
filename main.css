@@ -1,59 +1,71 @@
+@font-face {
+  font-family: IronBrine;
+  src: url(assets/Fonts/iron_brine/Iron\ &\ Brine.ttf);
+}
+
+@font-face {
+  font-family: LuloClean;
+  src: url(assets/Fonts/lulo-clean/Lulo\ Clean\ One.otf);
+}
+
+@font-face {
+  font-family: LuloCleanBold;
+  src: url(assets/Fonts/lulo-clean/Lulo\ Clean\ One\ Bold.otf);
+}
+
 .navbar {
-  background-color: #740010!important;
+  /* background-color: #740010!important; */
+  background-color: transparent !important;
+  color: #000 !important;
 }
+
 #header {
-  height: 90vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 130vh;
+  background-image: url("/assets/MF-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-#header-content {
-  position: absolute;
-  top: 56px;
-  right: 0;
-  width: 100vw;
-  height: 80%;
-  background: rgba(0, 0, 0, 0); /*Shadowing*/
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;  
+#header nav a {
+  font-family: LuloCleanBold;
 }
 
-.header-content:hover{
-    transition: 0.2s ease;
+#header p {
+  font-size: 72px;
+  letter-spacing: 12px;
+  font-family: IronBrine;
 }
 
-.nav-link:hover {
-  font-weight: bold;
-  transition: 0.2s ease;
+@media screen and (max-width: 768px) {
+  #header p {
+    font-size: 48px;
+  }
 }
 
-#video {
-  position: absolute;
-  right: 0;
-  top: 56px;
-  height: 80%;
-  object-fit: cover;
-  width: 100vw;
+@media screen and (max-width: 425px) {
+  #header p {
+    font-size: 32px;
+  }
+}
+
+#header small {
+  letter-spacing: 8px;
+  font-family: IronBrine;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .hr3 {
   border: 0 dotted;
   height: 2px;
-  background-image: linear-gradient(to right, transparent, #CCC, transparent);  
+  background-image: linear-gradient(to right, transparent, #ccc, transparent);
 }
 
-.streaming-services {
-  margin: 1rem 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
+#streaming {
+  top: 25% !important;
+  margin-right: 10px;
+  border-radius: 10px;
 }
-
 .social-media {
   margin: 1rem 0;
   display: flex;
@@ -124,17 +136,19 @@
 
 .vidBtn {
   width: 240px;
-  color: #740010;
-  border-color: #740010;
+  background-color: #740010;
+  color: white;
 }
 
 .vidBtn:focus {
-  background-color: #740010;
+  opacity: 0.8;
   color: white;
+  border-color: #740010;
 }
 .vidBtn:hover {
-  background-color: #740010;
+  opacity: 0.8;
   color: white;
+  border-color: #740010;
 }
 
 .tourBtn {
@@ -150,3 +164,11 @@
   'https://google.com',
   '_blank' // <- This is what makes it open in a new window.
 ); */
+
+#main {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url("/assets/cosita.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
