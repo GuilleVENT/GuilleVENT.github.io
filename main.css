@@ -19,37 +19,39 @@
   color: #000 !important;
 }
 
-#header {
+.hero {
   height: 130vh;
-  background-image: url("/assets/MF-3.jpg");
+  background: url("/assets/MF-3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
 }
 
-#header nav a {
+.hero nav a {
   font-family: LuloCleanBold;
 }
 
-#header p {
+.hero p {
   font-size: 72px;
   letter-spacing: 12px;
   font-family: IronBrine;
 }
 
 @media screen and (max-width: 768px) {
-  #header p {
+  .hero p {
     font-size: 48px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  #header p {
+  .hero p {
     font-size: 32px;
   }
 }
 
-#header small {
+.hero small {
   letter-spacing: 8px;
   font-family: IronBrine;
   color: rgba(255, 255, 255, 0.5);
