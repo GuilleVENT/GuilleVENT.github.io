@@ -65,6 +65,7 @@
 }
 
 #streaming {
+  background-color: black !important;
   top: 25% !important;
   margin-right: 10px;
   border-radius: 10px;
@@ -139,17 +140,17 @@
 .vidBtn {
   width: 240px;
   background-color: #000000;/*#740010*/
-  color: white;
+  color: #e5e84d;/*white;*/
 }
 
 .vidBtn:focus {
   opacity: 0.8;
-  color: white;
+  color: #e5e84d;/*white;*/
   border-color: #000000;/*#740010*/
 }
 .vidBtn:hover {
   opacity: 0.8;
-  color: white;
+  color: #e5e84d;/*white;*/
   border-color: #000000;/*#740010*/
 }
 
