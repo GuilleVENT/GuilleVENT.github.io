@@ -138,28 +138,28 @@
 
 .vidBtn {
   width: 240px;
-  background-color: #740010;
+  background-color: #000000;/*#740010*/
   color: white;
 }
 
 .vidBtn:focus {
   opacity: 0.8;
   color: white;
-  border-color: #740010;
+  border-color: #000000;/*#740010*/
 }
 .vidBtn:hover {
   opacity: 0.8;
   color: white;
-  border-color: #740010;
+  border-color: #000000;/*#740010*/
 }
 
 .tourBtn {
   width: 150px;
   color: white;
-  background-color: #740010;
+  background-color: #000000;/*#740010*/
 }
 .tourBtn:hover {
-  background-color: #740010;
+  background-color: #000000;/*#740010*/
 }
 
 /* window.open(
